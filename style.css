@@ -1,0 +1,321 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css";
+
+/* reset css */
+ html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, input, select, textarea, button,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a {
+    text-decoration: none;
+}
+img {
+    border: 0;
+}
+:focus {
+    outline: 0;
+}
+.clear {
+    clear: both;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sidebar{
+    width: 100%;
+    height: 45px;
+    background: #2F3C48;
+}
+
+
+.sidebar .top-title h2{
+    color:white;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 25px;
+    float: left;
+    margin-top: 13px;
+
+}
+
+.sidebar i {
+    color:#95abbd;
+    font-size: 20px;
+    margin-top: 13px;
+    float: left;
+    margin-left: 8px;
+}
+.sidebar .top-title .calendar i{
+    float: right;
+    
+}
+
+.sidebar .top-title .calendar a{
+    color: aliceblue; 
+    margin-bottom: 25px; 
+    float: left;
+    margin-left: 12px; 
+    font-family: Arial, Helvetica, sans-serif;
+    
+} 
+
+.menu {
+	
+float: right;
+	
+margin-right: 70px;
+	
+margin-top: 10px;
+}
+
+.menu li {
+	float:right;
+	margin-left: 8px;
+}
+
+.menu li:first-child {
+	margin-left:20px;
+}
+
+.menu li a{
+
+	color:white;
+	font-family:arial;
+	float:left;
+	padding-top:5px;
+}
+
+.menu li a i {
+	float:right;
+	margin-top: 0;
+	position:relative;
+	top:-5px;
+}
+.menu li i {
+	float:right;
+	margin-top: 0;
+}
+.w3-sidebar {
+    height: 100%;
+    width: 200px !important;
+    background-color: #3f5060;
+    position: absolute;
+}
+
+.w3-sidebar h3 {
+    margin-left: 3px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border:1px dashed white;
+    
+    
+   
+}
+
+.w3-sidebar h3 i{
+    padding-left: 5px;
+    
+}
+
+.w3-sidebar  li a{
+    color: white;
+    margin-left: 8px;
+    top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+}
+.w3-sidebar  li{
+   padding:10px 0;
+   border-bottom: 1px solid #4a5d6f;
+   cursor: pointer;
+   transition: 1s all;
+   font-size: 13px;
+}
+
+.w3-sidebar .arrow{
+    float: right;
+    margin-right: 15px;
+   
+}
+
+.w3-sidebar  ul li .square{
+    color:white;
+    padding-left: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    margin-top: 10px;
+    
+ 
+}
+
+
+.w3-sidebar  ul li .square li{
+    border:none;
+}
+.w3-sidebar  .baslik{
+     color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border:1px dashed white;
+}
+
+.w3-sidebar .active {
+    
+background-color: #2e3f50;
+}
+
+.w3-sidebar  ul li:hover {
+	background-color: #43698e;
+ 
+
+}
+
+.content {
+    width: 83%;
+    position: absolute;
+    left: 220px;
+    margin-top: 10px;
+    
+}
+
+.content .inner li{
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#0874b3;
+    font-size: 14px;
+    margin-right: 8px;
+}
+
+.content .inner h2 {
+    position: absolute;
+    margin-top: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.content .inner p {
+    position: absolute;
+    margin-top: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:grey;
+    font-size: 15px;
+}
+
+
+
+
+.kart1 .card .card-body p{
+    color: #3a4449;
+    font-size: 15px;
+}
+
+
+
+.kart2 .card .card-body p{
+    color: #3a4449;
+    margin-bottom: 50px;
+    font-size: 15px;
+}
+
+
+.kart3 .card .card-body p{
+    color: #3a4449;
+    margin-bottom: 47px;
+    font-size: 15px;
+}
+
+
+
+
+.kart4 .card .card-body p{
+    color: #3a4449;
+    font-size: 15px;
+}
+
+
+
+.kart5 .card .card-body p{
+    color: #3a4449;
+    margin-bottom: 50px;
+}
+
+
+
+.kart6 .card .card-body p{
+    color: #3a4449;
+    margin-bottom: 47px;
+    font-size: 15px;
+}
+
+
+.arama .buton .search{
+   
+    border: 1px solid grey;
+    border-radius: 3px;
+    height: 25px;
+    width: 240px;
+    float: right;
+   
+}
+
+table.card-text{
+	padding:5px;
+}
+
+table.card-text td{
+	padding:5px;
+	vertical-align: top;
+}
+
+table.card-text td i{
+	font-size: 40px;
+	color: #3f5060;
+}
+
+.content .row .card{
+	width:100%!important;
+	height:195px;
+	margin-top:20px;
+} 
+
+.arama {
+	margin-top:50px;
+	
+}
